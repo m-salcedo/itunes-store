@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme colors -->
+    <color name="accent">@color/green</color>
+    <color name="gray_status_bar">@color/green</color>
+    <color name="drawer_list_items">@color/text_primary</color>
+    <color name="primary">@color/green</color>
+    <color name="primary_dark">@color/green_dark</color>
+
+    <color name="grability_grey">#89938f</color>
+    <color name="grability_green_light">#32a472</color>
+    <color name="grability_green_dark">#26845a</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">@color/grey_900</color>
+    <color name="text_secondary">@color/grey_400</color>
+    <color name="text_accent">@color/grability_green_dark</color>
+    <color name="text_placeholder">@color/grey_300</color>
+    <color name="text_keyboard_digit">@color/grey_900</color>
+
+    <!-- Color palette -->
+    <color name="white">#ffffff</color>
+    <color name="white_30_percent">#55ffffff</color>
+    <color name="white_60_percent">#aaffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="black_10_percent">#1f000000</color>
+    <color name="black_50_percent">#77000000</color>
+    <color name="black_transparency">#CF000000</color>
+
+    <color name="green">@color/grability_green_light</color>
+    <color name="green_dark">@color/grability_green_dark</color>
+
+    <color name="grey_disable">@color/grey_400</color>
+    <color name="grey_900">#363636</color>
+    <color name="grey_500">#545454</color>
+    <color name="grey_400">#767676</color>
+    <color name="grey_300">#c9c9c9</color>
+    <color name="grey_200">#e9e9e9</color>
+    <color name="grey_100">#f9f9f9</color>
+    <color name="gray">#8B8B8B</color>
+    <color name="gray_light">#E0E0E0</color>
+</resources>

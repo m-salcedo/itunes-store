@@ -1,0 +1,244 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.fragment.DetailFragment">
+
+    <RelativeLayout
+        android:id="@+id/item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Item content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Name, Icon -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:paddingBottom="@dimen/spacing_sm"
+                android:paddingLeft="@dimen/spacing_sm"
+                android:paddingRight="@dimen/spacing_sm"
+                android:paddingTop="@dimen/spacing_md">
+
+                <com.grability.msalcedo.itunesstore_test.view.helper.CustomImageView
+                    android:id="@+id/ivIcon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginEnd="@dimen/spacing_sm"
+                    android:layout_marginRight="@dimen/spacing_sm"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/btn_border"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        fontPath="@string/font_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text_title_detail"
+                        tools:text="iTunes U" />
+
+                    <TextView
+                        android:id="@+id/tvAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="Apple" />
+
+                    <TextView
+                        android:id="@+id/tvCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="Education" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/label_free"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_accent"
+                    android:textSize="@dimen/text.xs" />
+
+            </LinearLayout>
+
+            <!-- Hustler about -->
+            <LinearLayout
+                android:id="@+id/layout_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_sm"
+                android:paddingRight="@dimen/spacing_sm"
+                android:paddingTop="@dimen/spacing_sm">
+
+                <TextView
+                    fontPath="@string/font_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/label_description"
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/text.default" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xs">
+
+                    <TextView
+                        android:id="@+id/tvDescription"
+                        style="?android:attr/textAppearanceLarge"
+                        fontPath="@string/font_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp"
+                        android:textColor="@color/text_primary"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm" />
+
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/btnShowMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/spacing_xxs"
+                    android:background="@drawable/button_rounded_no_fill"
+                    android:paddingLeft="@dimen/spacing_md"
+                    android:paddingRight="@dimen/spacing_md"
+                    android:text="@string/label_show_more"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/text.xs"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/spacing_sm"
+                android:layout_marginLeft="@dimen/spacing_sm"
+                android:layout_marginRight="@dimen/spacing_sm"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:background="@color/gray_light" />
+
+            <!-- Detail -->
+            <LinearLayout
+                android:id="@+id/contentDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_md"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_sm"
+                android:paddingRight="@dimen/spacing_sm">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        fontPath="@string/font_bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_detail"
+                        android:textColor="@color/text_primary"
+                        android:textSize="@dimen/text.default" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_xs"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/tvType"
+                        fontPath="@string/font_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/text_primary"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="Application" />
+
+                    <TextView
+                        android:id="@+id/tvPackage"
+                        fontPath="@string/font_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/text_primary"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="com.apple.itunesu" />
+
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        fontPath="@string/font_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/text_primary"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="January 19, 2012" />
+
+                    <TextView
+                        android:id="@+id/tvRight"
+                        fontPath="@string/font_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/text_primary"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm"
+                        tools:text="© 2016 Apple Inc." />
+
+                    <TextView
+                        android:id="@+id/tvLink"
+                        fontPath="@string/font_medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/green_dark"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/text.sm"
+                        android:text="@string/label_itunes_link" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

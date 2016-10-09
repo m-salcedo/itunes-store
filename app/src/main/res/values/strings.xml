@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iTunes Store</string>
+    <string name="url_api_current">https://itunes.apple.com</string>
+    <string name="text_cr">Copyright (c) 2016 m-salcedo.</string>
+    <string name="title_select_category">Select category</string>
+    <string name="label_free">Free</string>
+    <string name="label_description">Description</string>
+    <string name="label_show_more">Show more</string>
+    <string name="label_show_less">Show less</string>
+    <string name="label_detail">Detail</string>
+    <string name="label_no_internet">Offline mode</string>
+    <string name="label_item_detail">Item detail</string>
+    <string name="label_empty_items">No results were found to display</string>
+    <string name="label_itunes_link">More info - iTunes link</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="about">About App</string>
+    <string name="text_about">Grability android application test.\nBy: Mariangela Salcedo (msalcedo047@gmail.com)</string>
+</resources>
