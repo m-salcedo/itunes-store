@@ -4,12 +4,12 @@ Prueba Android Grability
 Tabla de contenidos
 -----------------
 
-- [Especificaciones Técnicas:](#especificaciones:)
+- [Especificaciones Técnicas:](#especificaciones-tecnicas)
 - [Librerias](#librerias)
 - [Estructura](#estructura)
 
 
-Especificaciones:
+Especificaciones Tecnicas:
 -------------
 
 - Android 4+
