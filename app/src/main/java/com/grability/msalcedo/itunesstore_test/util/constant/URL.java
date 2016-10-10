@@ -15,7 +15,7 @@ public class URL {
     private static final int LIMIT = 20;
 
     private static final String RSS = "/us/rss";
-    public static final String DOCUMENT = "https://drive.google.com/file/d/0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN/view?usp=sharing";
+    public static final String DOCUMENT = "https://drive.google.com/open?id=0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN";
     public static final String GITHUB = "https://github.com/m-salcedo";
 
     public static class APPLICATIONS {

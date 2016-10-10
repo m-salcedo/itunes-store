@@ -1,51 +1,52 @@
 # itunes-store
-Prueba Android Grability
+[Grability android application test.](https://drive.google.com/file/d/0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN/view?usp=sharing)
+[Apk download link:](https://drive.google.com/open?id=0B0EF3LWHV1mmblhuYW14cXBZbW8)
 
-Tabla de contenidos
+Contents table
 -----------------
 
-- [Especificaciones Tecnicas:](#especificaciones-tecnicas)
-- [Estructura](#estructura)
-- [Librerias](#librerias)
+- [Technical specifications](#technical-specifications)
+- [Structure](#structure)
+- [Libraries](#libraries)
 
 
-Especificaciones Tecnicas:
+Technical specifications
 -------------
 
 - Android 4+
-- [Servicios](https://itunes.apple.com/us/rss/topfreeapplications/limit=20/json)
+- [Services](https://itunes.apple.com/us/rss/topfreeapplications/limit=20/json)
 
 
-Estructura
+Structure
 ---------------
 
-- [Estructura MVP (Model - View - Presenter)] (https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android)
+- [MVP (Model - View - Presenter)] (https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android)
 
 
-Librerias
+Libraries
 ---------------
 
 ```bash
-# Support
+# Support libraries
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
     compile 'com.android.support:cardview-v7:23.4.0'
     compile 'com.android.support:design:23.4.0'
 
-# Fuente
+# Custom font
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'
 
-# Conexion http
+# HTTP client
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 
-# Carga de imagenes
+# Loading image
     compile 'com.github.bumptech.glide:glide:3.7.0'
 
-# Otras
+# Other
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.sothree.slidinguppanel:library:3.3.1'
     compile 'com.wang.avi:library:2.1.3'
