@@ -4,10 +4,12 @@ Prueba Android Grability
 Tabla de contenidos
 -----------------
 
-- [Especificaciones Técnicas:](#especificaciones-técnicas:)
+- [Especificaciones Técnicas:](#especificaciones:)
 - [Librerias](#librerias)
+- [Estructura](#estructura)
 
-Especificaciones Técnicas:
+
+Especificaciones:
 -------------
 
 - Android 4+
@@ -40,3 +42,8 @@ Librerias
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.sothree.slidinguppanel:library:3.3.1'
     compile 'com.wang.avi:library:2.1.3'
+
+Estructura
+---------------
+
+- [Estructura MVP (Model - View - Presenter)] (https://github.com/konmik/konmik.github.io/wiki/Introduction-to-Model-View-Presenter-on-Android)
