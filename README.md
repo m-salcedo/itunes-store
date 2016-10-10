@@ -1,6 +1,6 @@
 # itunes-store
-[Grability android application test.](https://drive.google.com/file/d/0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN/view?usp=sharing)
-[Apk download link:](https://drive.google.com/open?id=0B0EF3LWHV1mmblhuYW14cXBZbW8)
+- [Grability android application test](https://drive.google.com/file/d/0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN/view?usp=sharing)
+- [Apk download link](https://drive.google.com/open?id=0B0EF3LWHV1mmblhuYW14cXBZbW8)
 
 Contents table
 -----------------
@@ -41,7 +41,6 @@ Libraries
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
-    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 
 # Loading image
     compile 'com.github.bumptech.glide:glide:3.7.0'
