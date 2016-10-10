@@ -1,6 +1,6 @@
 # itunes-store
-- [Grability android application test](https://drive.google.com/file/d/0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN/view?usp=sharing)
-- [Apk download link](https://drive.google.com/open?id=0B0EF3LWHV1mmblhuYW14cXBZbW8)
+- [Grability android application test](https://drive.google.com/open?id=0B0EF3LWHV1mmZDNBY185ZFNwM2JlcWFYamxPM244TC1CX2pN)
+- [Apk download link](https://drive.google.com/open?id=0B0EF3LWHV1mmemc1a3cwcUh1Sk0)
 
 Contents table
 -----------------
