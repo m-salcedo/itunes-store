@@ -84,7 +84,7 @@
 
             </LinearLayout>
 
-            <!-- Hustler about -->
+            <!-- description -->
             <LinearLayout
                 android:id="@+id/layout_about"
                 android:layout_width="match_parent"
